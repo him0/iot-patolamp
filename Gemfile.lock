@@ -1,0 +1,25 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    aws_iot_device (1.0.0)
+      facets (~> 3.1.0, >= 3.1.0)
+      json (~> 2.0.2, >= 2.0.2)
+      paho-mqtt (~> 1.0.0, >= 1.0.0)
+      timers (~> 4.1.1, >= 4.1.1)
+    facets (3.1.0)
+    hitimes (2.0.0)
+    json (2.0.4)
+    paho-mqtt (1.0.12)
+    taopaipai (0.1.2)
+    timers (4.1.2)
+      hitimes
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  aws_iot_device
+  taopaipai
+
+BUNDLED WITH
+   1.17.2
